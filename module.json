@@ -1,0 +1,41 @@
+{
+  "id": "actor-journal-helper",
+  "title": "Actor Journal Helper",
+  "description": "Actor Journal Helper is a module that builds on the DnD5e - Fifth Edition System within Foundry VTT to provide users with a simple way to generate individual journal pages for each actor. It simplifies the process of creating journal pages by adding a link to the biography tab of the actor's character sheet. This link not only generates and/or pulls up the associated journal page but also creates a link on the journal page back to the actor. This feature is accessible to users with at least limited ownership of the actor.",
+  "authors": [
+    {
+    "name": "puddleimages"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "verified": "2.3.0"
+        }
+      }
+    ]
+  },
+  "socket": true,
+  "scripts": [
+    "scripts/actor-journal-helper.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "url": "https://github.com/puddleimages/actor-journal-helper",
+  "manifest": "https://raw.githubusercontent.com/puddleimages/actor-journal-helper/main/module.json",
+  "download": "https://github.com/puddleimages/actor-journal-helper/archive/refs/heads/main.zip",
+  "bugs": "https://github.com/puddleimages/actor-journal-helper/issues",
+  "changelog": "maybeSomeDay"
+}
